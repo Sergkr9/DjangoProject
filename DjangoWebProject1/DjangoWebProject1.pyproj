@@ -30,13 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DjangoWebProject1\DjangPr\admin.py" />
-    <Compile Include="DjangoWebProject1\DjangPr\apps.py" />
-    <Compile Include="DjangoWebProject1\DjangPr\migrations\__init__.py" />
-    <Compile Include="DjangoWebProject1\DjangPr\models.py" />
-    <Compile Include="DjangoWebProject1\DjangPr\tests.py" />
-    <Compile Include="DjangoWebProject1\DjangPr\views.py" />
-    <Compile Include="DjangoWebProject1\DjangPr\__init__.py" />
+    <Compile Include="DjangPr\admin.py" />
+    <Compile Include="DjangPr\apps.py" />
+    <Compile Include="DjangPr\migrations\__init__.py" />
+    <Compile Include="DjangPr\models.py" />
+    <Compile Include="DjangPr\tests.py" />
+    <Compile Include="DjangPr\views.py" />
+    <Compile Include="DjangPr\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoWebProject1\__init__.py" />
     <Compile Include="DjangoWebProject1\settings.py" />
@@ -44,15 +44,15 @@
     <Compile Include="DjangoWebProject1\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DjangoWebProject1\DjangPr\templates\DjangPr\index.html" />
+    <Content Include="DjangPr\templates\DjangPr\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoWebProject1\" />
-    <Folder Include="DjangoWebProject1\DjangPr\" />
-    <Folder Include="DjangoWebProject1\DjangPr\migrations\" />
-    <Folder Include="DjangoWebProject1\DjangPr\templates\" />
-    <Folder Include="DjangoWebProject1\DjangPr\templates\DjangPr\" />
+    <Folder Include="DjangPr\" />
+    <Folder Include="DjangPr\migrations\" />
+    <Folder Include="DjangPr\templates\" />
+    <Folder Include="DjangPr\templates\DjangPr\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
